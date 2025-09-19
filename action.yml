@@ -83,3 +83,4 @@ runs:
         path: ${{ runner.temp }}/artifact.tar
         retention-days: ${{ inputs.retention-days }}
         if-no-files-found: error
+        overwrite: true
